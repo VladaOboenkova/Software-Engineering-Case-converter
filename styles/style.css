@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+}
+
+.textarea-block{
+    width: 90%;
+    height: 50vh;
+}
+
+button{
+    background: #567fd9;
+    color: lightyellow;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 16px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #284888;
+}
+
+.buttons-block{
+    margin: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-block-item{
+    margin-right: 15px;
+}
+
+.save-button{
+    margin-bottom: 1%;
+    width: 90%;
+    text-align: left;
+}
