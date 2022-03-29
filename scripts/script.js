@@ -20,3 +20,7 @@ function toProperCase(text){
     return properCaseText.trim();
 }
 
+document.getElementById("proper-case").addEventListener("click", function(){
+    let text = document.getElementById("textarea").value;
+    document.getElementById("textarea").value = toProperCase(text);
+})
