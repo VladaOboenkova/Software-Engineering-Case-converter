@@ -54,3 +54,8 @@ function toSentenceCase(text){
     })
     return sentenceCaseText.trim();
 }
+
+document.getElementById("sentence-case").addEventListener("click", function(){
+    let text = document.getElementById("textarea").value;
+    document.getElementById("textarea").value = toSentenceCase(text);
+})
