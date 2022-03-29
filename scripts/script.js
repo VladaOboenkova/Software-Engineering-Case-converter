@@ -72,3 +72,8 @@ function download(filename, text) {
 
     document.body.removeChild(element);
 }
+
+document.getElementById("save-text-file").addEventListener("click", function (){
+        download("text.txt", document.getElementById("textarea").value)
+    }
+)
