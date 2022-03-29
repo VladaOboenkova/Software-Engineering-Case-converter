@@ -20,6 +20,7 @@ function toProperCase(text){
     return properCaseText.trim();
 }
 
+//Converter to proper case
 document.getElementById("proper-case").addEventListener("click", function(){
     let text = document.getElementById("textarea").value;
     document.getElementById("textarea").value = toProperCase(text);
@@ -55,6 +56,7 @@ function toSentenceCase(text){
     return sentenceCaseText.trim();
 }
 
+//Converter to sentence case
 document.getElementById("sentence-case").addEventListener("click", function(){
     let text = document.getElementById("textarea").value;
     document.getElementById("textarea").value = toSentenceCase(text);
